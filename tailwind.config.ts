@@ -21,9 +21,10 @@ const config: Config = {
     },
     fontSize: {
       sm: '1vw',
-      md: '2vw',
-      lg: '4vw',
+      md: '4vw',
+      lg: '6vw',
       xl: '8vw',
+      '2xl': '14vw',
     },
     extend: {
       backgroundImage: {
