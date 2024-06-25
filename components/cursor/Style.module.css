@@ -16,5 +16,11 @@
     align-items: center;
     font-size: 18px;
     color: black;
-  
   }
+
+
+@media screen and (max-width: 768px) {
+  .cursor {
+    display: none;
+  }
+}
