@@ -1,0 +1,20 @@
+.cursor {
+    --circle-size: 12px;
+    position: fixed;
+    height: var(--circle-size);
+    width: var(--circle-size);
+    background-color:  white;
+    border-radius: 100%;
+    top: calc(var(--circle-size) / 2 * -1);
+    left: calc(var(--circle-size) / 2 * -1);
+    pointer-events: none;
+    mix-blend-mode: difference;
+    z-index: 10000;
+    transition: all 0.1s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: black;
+  
+  }
