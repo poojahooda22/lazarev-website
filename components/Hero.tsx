@@ -11,7 +11,7 @@ function Hero() {
             {/* // Tag line with H1 */}
             <div 
                 className='uppercase tracking-tighter font-bold
-                text-lg
+                text-2xl leading-[14vw]
                 sm:text-xl  sm:leading-[8vw] sm:text-center'
             >
                 <div className=''>
@@ -25,14 +25,18 @@ function Hero() {
 
 
             {/* // p tag */}
-            <div className='flex flex-col items-center justify-center text-center mt-[3vw]'>
-                <p className='w-2/3 text-sm tracking-tighter leading-[1.3vw]'>
-                    We partner AI & ML businesses, guiding them from series A to series D and beyond with our expertise in
+            <div className='flex flex-col items-start sm:items-center justify-center sm:text-center mt-[6vw] sm:mt-[3vw]'>
+                <p 
+                    className='w-2/3 text-md leading-[5vw] 
+                    sm:text-sm tracking-tighter sm:leading-[1.3vw]'
+                >
+                    We partner AI & ML businesses, guiding them from series A to series D and beyond with 
+                    our expertise in
                 </p>
-                <div className='w-full mt-[.5vw] flex items-center justify-center gap-2'>
+                <div className='sm:w-full mt-[.5vw]  sm:flex sm:flex-row items-center justify-center gap-2'>
                     <span className='text-sm border-[1px] border-white px-4 py-2 rounded-full'>brand design</span>
                     <span className='text-sm border-[1px] border-white px-4 py-2 rounded-full'>user experience</span>
-                    <span>and</span>
+                    <span className='text-sm'>and</span>
                     <span className='text-sm border-[1px] border-white px-4 py-2 rounded-full'>digital product design</span>
                     <span>.</span>
                 </div>
