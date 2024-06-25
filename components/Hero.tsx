@@ -36,12 +36,12 @@ function Hero() {
                 <div className='sm:mt-[.5vw] flex flex-col items-start sm:flex sm:flex-row sm:items-center mt-[.8vw]
                 justify-center gap-2'>
                     <div className='flex gap-2'>
-                        <span className='text-md whitespace-nowrap sm:text-sm border-[1px] border-white px-[2vw] py-[1.5vw] sm:px-4 sm:py-2 rounded-full'>brand design</span>
-                        <span className='text-md whitespace-nowrap  sm:text-sm border-[1px] border-white px-[2vw] py-[1.5vw] sm:px-4 sm:py-2 rounded-full'>user experience</span>
+                        <span className='text-md whitespace-nowrap sm:text-sm border-[1px] border-grey px-[2vw] py-[1.5vw] sm:px-4 sm:py-2 rounded-full'>brand design</span>
+                        <span className='text-md whitespace-nowrap  sm:text-sm border-[1px] border-grey px-[2vw] py-[1.5vw] sm:px-4 sm:py-2 rounded-full'>user experience</span>
                     </div> 
                     <div className='mt-[0vw] flex gap-2 items-center'>
                         <span className='text-md sm:text-sm'>and</span>
-                        <span className='text-md whitespace-nowrap sm:text-sm border-[1px] border-white px-[2vw] py-[1.5vw] sm:px-4 sm:py-2 rounded-full'>digital product design</span>
+                        <span className='text-md whitespace-nowrap sm:text-sm border-[1px] border-grey px-[2vw] py-[1.5vw] sm:px-4 sm:py-2 rounded-full'>digital product design</span>
                         <span>.</span>
                     </div>
                 </div>
