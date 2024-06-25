@@ -2,7 +2,7 @@ import React from 'react'
 
 function Header() {
   return (
-    <div className='fixed top-0 sm:left-[10%] max-w-screen-xl mx-auto  py-[4vw] px-[5vw] sm:px-0 sm:py-[2vw]'>
+    <div className='fixed top-0 sm:left-[10%] w-full max-w-screen-xl mx-auto  py-[4vw] px-[5vw] sm:px-0 sm:py-[2vw]'>
         <div className=' flex items-center justify-between'>
             {/* //logo */}
             <div className='w-[28vw] sm:w-[10vw]'>
