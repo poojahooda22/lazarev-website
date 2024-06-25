@@ -2,6 +2,7 @@
 
 import Cursor from '@/components/cursor/Index';
 import Hero from '@/components/Hero';
+import Header from '@/components/Navbar/Index';
 import { useRef,  useEffect } from 'react';
 
 
@@ -19,6 +20,7 @@ export default function Home() {
   return (
     <main className="">
       <Cursor />
+      <Header />
       <Hero />
     </main>
   );
