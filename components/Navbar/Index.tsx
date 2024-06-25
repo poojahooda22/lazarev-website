@@ -17,7 +17,9 @@ function Header() {
                 <h3>design process</h3>
                 <h3></h3>
             </div>
-            <div></div>
+            <div>
+                
+            </div>
         </div>
     </div>
   )
