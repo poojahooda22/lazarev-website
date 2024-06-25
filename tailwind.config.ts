@@ -17,7 +17,8 @@ const config: Config = {
       white: '#ffffff',
       black: '#111111',
       blue: '#4f5bff',
-      green: '#0da34e'
+      green: '#0da34e',
+      grey: '#686875'
     },
     fontSize: {
       sm: '1vw',
