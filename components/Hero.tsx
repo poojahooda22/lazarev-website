@@ -6,7 +6,7 @@ function Hero() {
     <div className='w-full h-[100vh]'>
         <div   
             className='w-full h-full flex flex-col items-start px-[5vw] sm:px-0
-            sm:items-center sm:justify-center mt-[10vw] sm:mt-0'
+            sm:items-center sm:justify-center pt-[22vw] sm:pt-0'
         >
             {/* // Tag line with H1 */}
             <div 
