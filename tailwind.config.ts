@@ -11,7 +11,7 @@ const config: Config = {
       sm: '480px',
       md: '768px',
       lg: '976px',
-      xl: '1440px',
+      xl: '1440px',     
     },
     colors: {
       white: '#ffffff',
