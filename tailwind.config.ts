@@ -20,10 +20,10 @@ const config: Config = {
       green: '#0da34e'
     },
     fontSize: {
-      sm: '16px',
-      md: '10px',
-      lg: '24px',
-      xl: '28px',
+      sm: '1vw',
+      md: '2vw',
+      lg: '4vw',
+      xl: '8vw',
     },
     extend: {
       backgroundImage: {
