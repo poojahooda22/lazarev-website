@@ -33,8 +33,10 @@ function Hero() {
                     We partner AI & ML businesses, guiding them from series A to series D and beyond with 
                     our expertise in
                 </p>
-                <div className='sm:mt-[.5vw] flex flex-col items-start sm:flex sm:flex-row sm:items-center 
-                mt-[1vw] justify-center gap-2'>
+                <div 
+                    className='sm:mt-[.5vw] flex flex-col items-start sm:flex sm:flex-row sm:items-center 
+                    mt-[1vw] justify-center gap-2'
+                >
                     <div className='flex gap-2'>
                         <span className='text-md whitespace-nowrap sm:text-sm border-[1px] border-grey px-[2vw] py-[1.5vw] sm:px-4 sm:py-2 rounded-full'>brand design</span>
                         <span className='text-md whitespace-nowrap  sm:text-sm border-[1px] border-grey px-[2vw] py-[1.5vw] sm:px-4 sm:py-2 rounded-full'>user experience</span>
