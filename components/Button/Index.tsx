@@ -1,10 +1,26 @@
 import React from 'react'
 import style from './Style.module.css'
 
+
 function Button() {
 
+  useGSAP(() => {
+    const tl = gsap.timeline({
+        scrollTrigger: {
+            trigger: '.projectSec',
+            start: 'top 20%',
+            end: 'bottom -50%',
+            scrub: 1,
+            
+        }
+    })
+    tl.from('.projectVideoDiv', {
+        opacity: 0,
+        duration: 1,
+        ease: Power3.easeOut
+    })
+  })
 
-  useGsap
   return (
     <div>
       <div className={`button ${style.button} relative flex items-center uppercase pl-4`}>
