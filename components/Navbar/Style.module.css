@@ -3,7 +3,8 @@
     border-bottom: 1.2px solid #f1f1f1;
 }
 
-.listNavContent:hover .navBottom {
-    bottom: -100%;
+
+.listNav:hover .navBottom {
     height: 100%;
+    bottom: -100%;
 }
