@@ -3,7 +3,7 @@ import Button from '../Button/Index'
 
 function Header() {
   return (
-    <div className='fixed top-0 sm:left-[10%] w-full max-w-screen-xl mx-auto
+    <div className='fixed top-0 sm:left-[10%] w-full max-w-screen-xl mx-auto 
         py-[4vw] px-[5vw] sm:px-0 sm:py-[1vw]'>
         <div className=' flex items-center justify-between'>
             {/* //logo */}
@@ -20,13 +20,14 @@ function Header() {
                 <h3>Ui ux design</h3>
                 <h3>product design</h3>
                 <h3>design process</h3>
-                <h3></h3>
+                <h3>About Agency</h3>
             </div>
             <div>
                 {/* button */}
                 <Button />
             </div>
         </div>
+        <div className='absolute navBottom bg-white w-[100%] h-[100%]'></div>
     </div>
   )
 }
