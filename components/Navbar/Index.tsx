@@ -1,9 +1,10 @@
 import React from 'react'
 import Button from '../Button/Index'
+import style from './Style.module.css'
 
 function Header() {
   return (
-    <div className='fixed top-0 sm:left-[10%] w-full max-w-screen-xl mx-auto 
+    <div className='fixed top-0 sm:left-[10%] w-full max-w-screen-xl mx-auto cursor-pointer
         py-[4vw] px-[5vw] sm:px-0 sm:py-[1vw]'>
         <div className=' flex items-center justify-between'>
             {/* //logo */}
@@ -12,8 +13,8 @@ function Header() {
             </div>
             {/* center */}
             <div 
-                className='hidden sm:flex items-center gap-[2vw] 
-                text-xs tracking-tighter leading-none uppercase'
+                className={`listNavContent ${style.listNavContent} hidden sm:flex items-center gap-[2vw] 
+                text-xs tracking-tighter leading-none uppercase`}
             >
                 <h3>Case studies</h3>
                 <h3>Areas of Expertise</h3>
@@ -27,7 +28,7 @@ function Header() {
                 <Button />
             </div>
         </div>
-        <div className='absolute navBottom bg-white w-[100%] h-[100%]'></div>
+        <div className={`absolute navBottom ${style.navBottom} w-[100%] h-[0%] `}></div>
     </div>
   )
 }
