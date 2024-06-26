@@ -21,6 +21,7 @@ const config: Config = {
       grey: '#686875'
     },
     fontSize: {
+      xs: '0.8vw',
       sm: '1vw',
       md: '4vw',
       lg: '6vw',
