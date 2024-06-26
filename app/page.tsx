@@ -2,6 +2,7 @@
 
 import Cursor from '@/components/cursor/Index';
 import Hero from '@/components/Hero';
+import Marquees from '@/components/Marquees';
 import Header from '@/components/Navbar/Index';
 import { useRef,  useEffect } from 'react';
 
@@ -22,6 +23,7 @@ export default function Home() {
       <Cursor />
       <Header />
       <Hero />
+      <Marquees />
     </main>
   );
 }
