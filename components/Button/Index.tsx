@@ -1,6 +1,6 @@
 import React from 'react'
 import style from './Style.module.css'
-
+import gsap from 'gsap';
 
 function Button() {
 
