@@ -1,10 +1,14 @@
 .button {
-    background-color:  #0da34e;
     color: white;
     border-radius: 50px;
     text-align: right;
     position: relative;
     overflow: hidden;
-    transition: .3s;
+    transition: all ease-in 0.5s;
+
 }
 
+.button:hover .btnDiv {
+    left: 5.6vw;
+    border-radius: 50px;
+}
