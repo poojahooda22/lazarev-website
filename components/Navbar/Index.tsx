@@ -14,8 +14,8 @@ function Header() {
     ]
 
   return (
-    <div className={`listNav ${style.listNav} fixed top-0 sm:left-[10%] w-full max-w-screen-xl mx-auto cursor-pointer
-        py-[4vw] px-[5vw] sm:px-0 sm:py-[1vw]`}>
+    <div className={`listNav ${style.listNav} w-full fixed top-0 sm:left-0  cursor-pointer
+        py-[4vw] px-[5vw] sm:px-[8vw] sm:py-[1vw]`}>
         <div className={` flex items-center justify-between `}>
             {/* //logo */}
             <div className='w-[28vw] sm:w-[8vw]'>
@@ -38,7 +38,7 @@ function Header() {
                 <Button />
             </div>
         </div>
-        <div className={`absolute navBottom ${style.navBottom} w-[100%] h-[100%] text-[.7vw]
+        <div className={`absolute navBottom ${style.navBottom} w-[84%] h-[0%] text-[.7vw] bg-black
             flex items-start justify-center gap-[6vw] px-[12vw]`}
         >
             {/* <div className='bottomDiv'>
