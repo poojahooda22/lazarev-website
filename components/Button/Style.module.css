@@ -6,9 +6,5 @@
     position: relative;
     overflow: hidden;
     transition: .3s;
-    width: 170px;
 }
 
-.button:hover {
-    width: 60px;
-}
