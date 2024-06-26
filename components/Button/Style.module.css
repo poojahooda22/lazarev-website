@@ -2,4 +2,13 @@
     background-color:  #0da34e;
     color: white;
     border-radius: 50px;
+    text-align: right;
+    position: relative;
+    overflow: hidden;
+    transition: .3s;
+    width: 170px;
+}
+
+.button:hover {
+    width: 60px;
 }
