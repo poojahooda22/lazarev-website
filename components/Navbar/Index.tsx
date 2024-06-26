@@ -23,7 +23,10 @@ function Header() {
             </div>
             {/* center */}
 
-            <div className='hidden sm:flex items-center gap-[2vw] text-xs font-semibold tracking-tighter leading-none uppercase'>
+            <div 
+                className='hidden sm:flex items-center gap-[2vw] text-xs 
+                font-semibold tracking-tighter leading-none uppercase'
+            >
                 {data.map((item, index) => {
                     return (
                         <div key={index} className=''>
