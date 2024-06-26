@@ -5,8 +5,8 @@ function Hero() {
   return (
     <div className='w-full h-[100vh]'>
         <div   
-            className='w-full h-full flex flex-col items-start px-[5vw] sm:px-0
-            sm:items-center sm:justify-center pt-[22vw] sm:pt-0'
+            className='w-full h-full max-w-screen-xl mx-auto flex flex-col items-start px-[5vw] sm:px-0
+            sm:items-center sm:justify-center pt-[22vw] sm:pt-[4vw]'
         >
             {/* // Tag line with H1 */}
             <div 
@@ -27,7 +27,7 @@ function Hero() {
             {/* // p tag */}
             <div className='flex flex-col items-start sm:items-center justify-center sm:text-center mt-[6vw] sm:mt-[3vw]'>
                 <p 
-                    className='w-[80%] sm:w-2/3 text-md leading-[5vw] 
+                    className='w-[80%] sm:w-2/3 text-md leading-[5vw] font-medium
                     sm:text-sm tracking-tighter sm:leading-[1.3vw]'
                 >
                     We partner AI & ML businesses, guiding them from series A to series D and beyond with 
