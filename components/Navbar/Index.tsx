@@ -40,7 +40,13 @@ function Header() {
         gsap.to('.navBottom', {
             bottom: '-100%',
         })
-      }
+    }
+
+    const handleLeave = () => {
+        gsap.to('.btnDiv', {
+            bottom: '-100%',
+        })
+    }
 
   return (
     <div className={` w-full fixed top-0 sm:left-0  cursor-pointer
