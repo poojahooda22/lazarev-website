@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Button from '../Button/Index'
 import style from './Style.module.css'
 import gsap from 'gsap';
@@ -14,7 +14,6 @@ function Header() {
         'Design Process', 
         'About Agency'
     ]
-
 
     const handleMove = () => {
         let tl = gsap.timeline()
@@ -42,11 +41,13 @@ function Header() {
             }
         })
         tl.to('.navElem h5', {
-            display: 'none',    
+            display: 'none', 
+            duration: .1   
         })
         tl.to('.navBottom', {
             bottom: '0%',
-            height: '0%'
+            height: '0%',
+            duration: .1
         })
     }
 
