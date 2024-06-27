@@ -31,7 +31,7 @@ function Header() {
     }
 
   return (
-    <div className={` w-full fixed top-0 sm:left-0  cursor-pointer
+    <div className={` w-full h-[11vh] fixed top-0 sm:left-0  cursor-pointer
         py-[4vw] px-[5vw] sm:px-[8vw] sm:py-[1vw]`}>
         <div className={` flex items-center justify-between `}>
             {/* //logo */}
@@ -54,7 +54,7 @@ function Header() {
                     )
                 })}
             </div>
-            <div className={`absolute  navBottom ${style.navBottom} w-[84%] h-[0%] text-[.7vw] bg-black z-[1]
+            <div className={`absolute navBottom ${style.navBottom} w-[84%] h-[0%] text-[.7vw] bg-black z-[1]
             flex items-start justify-center gap-[5vw] `}
             >  
             </div>
