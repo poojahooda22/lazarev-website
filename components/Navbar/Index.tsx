@@ -43,16 +43,23 @@ function Header() {
             <div 
                 onMouseEnter={handleMove}
                 onMouseLeave={handleLeave}
-                className={`listNav ${style.listNav} hidden sm:flex items-center gap-[2vw] text-xs 
+                className={`listNav ${style.listNav} hidden sm:flex items-center gap-[2vw] text-xs hover:text-grey
                 font-semibold tracking-tighter leading-none uppercase`}
             >
-                {data.map((item, index) => {
-                    return (
-                        <div key={index} className='hover:text-grey'>
-                            <h3>{item}</h3>
-                        </div>
-                    )
-                })}
+                <div className='navElem'>
+                    <h3>Case Studies</h3>
+                </div>
+                <div className='navElem'>
+                    <h3>Areas of expertise</h3>
+                    <h5><span>🔥 AI & ML</span></h5>
+                    <h5><span>Fin Tech</span></h5>
+                    <h5><span>Real Estate</span></h5>
+                    <h5><span>E-commerce</span></h5>
+                    <h5><span>Web3</span></h5>
+
+                </div>
+
+
             </div>
             <div className={`hidden sm:inline-block absolute navBottom ${style.navBottom} 
                 w-[84%] h-[0%] text-[.7vw] bg-black z-[1]
