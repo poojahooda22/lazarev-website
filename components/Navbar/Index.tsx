@@ -17,7 +17,7 @@ function Header() {
 
 
     const handleMove = () => {
-        const tl = gsap.timeline()
+        let tl = gsap.timeline()
         tl.to('.navBottom', {
             bottom: '-150%',
             height: '150%'
@@ -34,21 +34,20 @@ function Header() {
     }
 
     const handleLeave = () => {
-        const tl = gsap.timeline()
-        tl.to('.navBottom', {
-            bottom: '0%',
-            height: '0%'
-        })
-        tl.to('.navElem h5', {
-            display: 'none',
-            
-        })
+        let tl = gsap.timeline()
         tl.to('.navElem h5 span', {
             y: 20,
             stagger: {
                 amount: 0.1
             }
-         })
+        })
+        tl.to('.navElem h5', {
+            display: 'none',    
+        })
+        tl.to('.navBottom', {
+            bottom: '0%',
+            height: '0%'
+        })
     }
 
   return (
