@@ -37,7 +37,7 @@ function Header() {
     ]
 
     const handleMove = () => {
-        gsap.to('.btnDiv', {
+        gsap.to('.navBottom', {
           left: '65%',
           borderRadius: '80px',
         })
