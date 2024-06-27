@@ -38,7 +38,7 @@ function Header() {
 
     const handleMove = () => {
         gsap.to('.navBottom', {
-          
+            bottom: '-100%',
         })
       }
 
