@@ -15,36 +15,18 @@ function Header() {
         'About Agency'
     ]
 
-    const navData = [
-        '🔥 AI & ML',
-        'Fin Tech',
-        'Real Estate',
-        'Ecommerce',
-        'Web3',
-        'UX Audit',
-        'UI Design',
-        'UX Design',
-        'UX Research',
-        'Saas',
-        'Web App',
-        'Mobile Design',
-        'Website',
-        'MVP',
-        'Relaunch',
-        'Our Story',
-        'Client\'s Feedback',
-        'Careers'
-    ]
 
     const handleMove = () => {
         gsap.to('.navBottom', {
             bottom: '-140%',
+            height: '100%'
         })
     }
 
     const handleLeave = () => {
         gsap.to('.navBottom', {
             bottom: '0%',
+            height: '0%'
         })
     }
 
@@ -66,22 +48,15 @@ function Header() {
             >
                 {data.map((item, index) => {
                     return (
-                        <div key={index} className=''>
+                        <div key={index} className='hover:text-grey'>
                             <h3>{item}</h3>
                         </div>
                     )
                 })}
             </div>
             <div className={`absolute  navBottom ${style.navBottom} w-[84%] h-[0%] text-[.7vw] bg-black z-[1]
-            flex items-start justify-center gap-[6vw] px-[12vw]`}
-            > 
-                {navData.map((item, index) => {
-                    return (
-                        <div key={index}>
-                            
-                        </div>
-                    )
-                })} 
+            flex items-start justify-center gap-[5vw] `}
+            >  
             </div>
 
             <div>
