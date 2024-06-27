@@ -38,13 +38,13 @@ function Header() {
 
     const handleMove = () => {
         gsap.to('.navBottom', {
-            bottom: '-100%',
+            bottom: '-140%',
         })
     }
 
     const handleLeave = () => {
-        gsap.to('.btnDiv', {
-            bottom: '-100%',
+        gsap.to('.navBottom', {
+            bottom: '0%',
         })
     }
 
