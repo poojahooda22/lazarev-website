@@ -55,8 +55,8 @@ function Header() {
                 })}
             </div>
             <div className={`hidden sm:inline-block absolute navBottom ${style.navBottom} 
-            w-[84%] h-[0%] text-[.7vw] bg-black z-[1]
-            flex items-start justify-center gap-[5vw] `}
+                w-[84%] h-[0%] text-[.7vw] bg-black z-[1]
+                flex items-start justify-center gap-[5vw] `}
             >  
             </div>
 
