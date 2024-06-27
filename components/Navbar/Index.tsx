@@ -53,6 +53,7 @@ function Header() {
             {/* center */}
 
             <div 
+                onMouseEnter={handleMove}
                 className={`listNav ${style.listNav} hidden sm:flex items-center gap-[2vw] text-xs 
                 font-semibold tracking-tighter leading-none uppercase`}
             >
