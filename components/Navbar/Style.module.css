@@ -1,15 +1,15 @@
 .navBottom {
-    bottom: 0%;
+    top: 100%;
     border-bottom: 1.2px solid #f1f1f1;
     transition: all ease 0.5s;
 }
 .listNav {
-    padding: .5vh 0;
+    padding: .4vh 0;
 }
 
 .navElem h3 {
     text-transform: uppercase;
-    margin-bottom: 1.5vw;
+    margin-bottom: 2.6vw;
 }
 .navElem h5 {
     margin-bottom: 1vw;
@@ -18,4 +18,5 @@
 .navElem h5 span {
     font-size: .8vw;
     text-transform: capitalize;
+    display: inline-block;
 }
