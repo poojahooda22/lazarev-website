@@ -32,7 +32,7 @@ function Header() {
 
   return (
     <div className='w-full fixed top-0 sm:left-0 cursor-pointer flex items-start bg-black
-        justify-between h-[11vh]
+        justify-between h-[12vh]
         py-[5vw] px-[5vw] sm:px-[8vw] sm:py-[2vw]'
     >
         
@@ -86,7 +86,8 @@ function Header() {
                     <h5><span>News</span></h5>                       
                 </div>
             </div>
-            <div className={`hidden sm:inline-block absolute navBottom ${style.navBottom} 
+            <div 
+                className={`hidden sm:inline-block absolute navBottom ${style.navBottom} 
                 w-[84%] h-[0%] text-[.7vw] bg-black z-[1]
                  `}
             >  
