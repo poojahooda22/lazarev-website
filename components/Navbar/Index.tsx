@@ -76,7 +76,11 @@ function Header() {
             flex items-start justify-center gap-[6vw] px-[12vw]`}
             > 
                 {navData.map((item, index) => {
-                    
+                    return (
+                        <div key={index}>
+                            
+                        </div>
+                    )
                 })} 
             </div>
 
