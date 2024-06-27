@@ -14,7 +14,24 @@ function Header() {
     ]
 
     const navData = [
-        
+        '🔥 AI & ML',
+        'Fin Tech',
+        'Real Estate',
+        'Ecommerce',
+        'Web3',
+        'UX Audit',
+        'UI Design',
+        'UX Design',
+        'UX Research',
+        'Saas',
+        'Web App',
+        'Mobile Design',
+        'Website',
+        'MVP',
+        'Relaunch',
+        'Our Story',
+        'Client\'s Feedback',
+        'Careers'
     ]
 
   return (
@@ -28,8 +45,8 @@ function Header() {
             {/* center */}
 
             <div 
-                className='hidden sm:flex items-center gap-[2vw] text-xs 
-                font-semibold tracking-tighter leading-none uppercase'
+                className={`hidden sm:flex items-center gap-[2vw] text-xs 
+                font-semibold tracking-tighter leading-none uppercase`}
             >
                 {data.map((item, index) => {
                     return (
@@ -39,44 +56,17 @@ function Header() {
                     )
                 })}
             </div>
+            <div className={`absolute navBottom ${style.navBottom} w-[84%] h-[0%] text-[.7vw] bg-black z-[1]
+            flex items-start justify-center gap-[6vw] px-[12vw]`}
+            >  
+            </div>
 
             <div>
                 {/* button */}
                 <Button />
             </div>
         </div>
-        <div className={`absolute navBottom ${style.navBottom} w-[84%] h-[0%] text-[.7vw] bg-black z-[1]
-            flex items-start justify-center gap-[6vw] px-[12vw]`}
-        >
-            {/* <div className='bottomDiv'>
-                <h5><span>🔥 AI & ML</span></h5>
-                <h5><span>Fin Tech</span></h5>
-                <h5><span>Real Estate</span></h5>
-                <h5><span>Ecommerce</span></h5>
-                <h5><span>Web3</span></h5>
-            </div>
-            <div className='bottomDiv'>
-                <h5><span>UX Audit</span></h5>
-                <h5><span>UI Design</span></h5>
-                <h5><span>UX Design</span></h5>
-                <h5><span>UX Research</span></h5>
-            </div>
-            <div className='bottomDiv'>
-                <h5><span>Saas</span></h5>
-                <h5><span>Web App</span></h5>
-                <h5><span>Mobile Design</span></h5>
-                <h5><span>Website</span></h5>
-            </div>
-            <div className='bottomDiv'>
-                <h5><span>MVP</span></h5>
-                <h5><span>Relaunch</span></h5>
-            </div>
-            <div className='bottomDiv'>
-                <h5><span>Our Story</span></h5>
-                <h5><span>Client&apos;s Feedback</span></h5>
-                <h5><span>Careers</span></h5>
-            </div> */}
-        </div>
+        
     </div>
   )
 }
