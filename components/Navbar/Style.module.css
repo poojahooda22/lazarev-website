@@ -4,15 +4,18 @@
     transition: all ease 0.5s;
 }
 .listNav {
-    padding: 0vh 0;
+    padding: .5vh 0;
 }
 
 .navElem h3 {
     text-transform: uppercase;
     margin-bottom: 1vw;
 }
+.navElem h5 {
+    margin-bottom: 1vw;
+}
 
 .navElem h5 span {
-    font-size: .7vw;
+    font-size: .8vw;
     text-transform: capitalize;
 }
