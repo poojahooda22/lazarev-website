@@ -9,8 +9,10 @@
 
 .navElem h3 {
     text-transform: uppercase;
+    margin-bottom: 1vw;
 }
 
-.navElem h5  {
+.navElem h5 span {
     font-size: .7vw;
+    text-transform: capitalize;
 }
