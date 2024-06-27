@@ -18,8 +18,8 @@ function Header() {
 
     const handleMove = () => {
         gsap.to('.navBottom', {
-            bottom: '-140%',
-            height: '100%'
+            bottom: '-150%',
+            height: '150%'
         })
     }
 
@@ -32,7 +32,7 @@ function Header() {
 
   return (
     <div className={` w-full h-[11vh] fixed top-0 sm:left-0  cursor-pointer
-        py-[4vw] px-[5vw] sm:px-[8vw] sm:py-[1vw]`}>
+        py-[5vw] px-[5vw] sm:px-[8vw] sm:py-[1vw]`}>
         <div className={` flex items-center justify-between `}>
             {/* //logo */}
             <div className='w-[28vw] sm:w-[8vw]'>
@@ -54,12 +54,13 @@ function Header() {
                     )
                 })}
             </div>
-            <div className={`absolute navBottom ${style.navBottom} w-[84%] h-[0%] text-[.7vw] bg-black z-[1]
+            <div className={`hidden sm:inline-block absolute navBottom ${style.navBottom} 
+            w-[84%] h-[0%] text-[.7vw] bg-black z-[1]
             flex items-start justify-center gap-[5vw] `}
             >  
             </div>
 
-            <div>
+            <div className='hidden sm:inline-block'>
                 {/* button */}
                 <Button />
             </div>
