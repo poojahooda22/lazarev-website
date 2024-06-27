@@ -36,6 +36,13 @@ function Header() {
         'Careers'
     ]
 
+    const handleMove = () => {
+        gsap.to('.btnDiv', {
+          left: '65%',
+          borderRadius: '80px',
+        })
+      }
+
   return (
     <div className={` w-full fixed top-0 sm:left-0  cursor-pointer
         py-[4vw] px-[5vw] sm:px-[8vw] sm:py-[1vw]`}>
