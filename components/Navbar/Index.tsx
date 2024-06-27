@@ -74,7 +74,8 @@ function Header() {
             </div>
             <div className={`absolute  navBottom ${style.navBottom} w-[84%] h-[0%] text-[.7vw] bg-black z-[1]
             flex items-start justify-center gap-[6vw] px-[12vw]`}
-            >  
+            > 
+                {} 
             </div>
 
             <div>
