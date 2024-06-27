@@ -58,12 +58,17 @@ function Header() {
                     <h5><span>Web3</span></h5>
                 </div>
                 <div className='navElem'>
-                    <h3>Areas of expertise</h3>
-                    <h5><span>🔥 AI & ML</span></h5>
-                    <h5><span>Fin Tech</span></h5>
-                    <h5><span>Real Estate</span></h5>
-                    <h5><span>E-commerce</span></h5>
-                    <h5><span>Web3</span></h5>
+                    <h3>UI UX design</h3>
+                    <h5><span>Ux audit</span></h5>
+                    <h5><span>Ui design</span></h5>
+                    <h5><span>Ux design</span></h5>
+                    <h5><span>Ux research</span></h5>
+                </div>
+                <div className='navElem'>
+                    <h3>saas</h3>
+                    <h5><span>Web app</span></h5>
+                    <h5><span>mobile app</span></h5>
+                    <h5><span>website</span></h5>                   
                 </div>
 
 
