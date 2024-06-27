@@ -3,6 +3,10 @@
     border-bottom: 1.2px solid #f1f1f1;
     transition: all ease 0.5s;
 }
+.listNav {
+    padding: 0vh 0;
+}
+
 .navElem h3 {
     text-transform: uppercase;
 }
