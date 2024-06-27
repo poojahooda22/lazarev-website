@@ -56,7 +56,14 @@ function Header() {
                     <h5><span>Real Estate</span></h5>
                     <h5><span>E-commerce</span></h5>
                     <h5><span>Web3</span></h5>
-
+                </div>
+                <div className='navElem'>
+                    <h3>Areas of expertise</h3>
+                    <h5><span>🔥 AI & ML</span></h5>
+                    <h5><span>Fin Tech</span></h5>
+                    <h5><span>Real Estate</span></h5>
+                    <h5><span>E-commerce</span></h5>
+                    <h5><span>Web3</span></h5>
                 </div>
 
 
