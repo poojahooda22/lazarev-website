@@ -31,7 +31,8 @@ function Header() {
     }
 
   return (
-    <div className='w-full fixed top-0 sm:left-0 cursor-pointer flex items-start justify-between bg-grey
+    <div className='w-full fixed top-0 sm:left-0 cursor-pointer flex items-start 
+        justify-between bg-grey
         py-[5vw] px-[5vw] sm:px-[8vw] sm:py-[2vw]'
     >
         
