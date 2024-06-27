@@ -17,17 +17,38 @@ function Header() {
 
 
     const handleMove = () => {
-        gsap.to('.navBottom', {
+        const tl = gsap.timeline()
+        tl.to('.navBottom', {
             bottom: '-150%',
             height: '150%'
         })
+        tl.to('.navElem h5', {
+           display: 'block',
+        })
+        tl.from('.navElem h5 span', {
+            y: 20,
+            stagger: {
+                amount: 0.3
+            }
+         })
     }
 
     const handleLeave = () => {
-        gsap.to('.navBottom', {
+        const tl = gsap.timeline()
+        tl.to('.navBottom', {
             bottom: '0%',
             height: '0%'
         })
+        tl.to('.navElem h5', {
+            display: 'none',
+            
+        })
+        tl.to('.navElem h5 span', {
+            y: 20,
+            stagger: {
+                amount: 0.1
+            }
+         })
     }
 
   return (
@@ -67,7 +88,7 @@ function Header() {
                 </div>
                 <div className={`navElem ${style.navElem}`}>
                     <h3>Product design</h3>
-                    <h5>SaaS</h5>
+                    <h5><span>SaaS</span></h5>
                     <h5><span>Web App</span></h5>
                     <h5><span>mobile app</span></h5>
                     <h5><span>website</span></h5>                   
