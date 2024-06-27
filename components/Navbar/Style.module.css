@@ -13,6 +13,8 @@
 }
 .navElem h5 {
     margin-bottom: 1vw;
+    display: none;
+    overflow: hidden;
 }
 
 .navElem h5 span {
