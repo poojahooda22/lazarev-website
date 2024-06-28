@@ -59,7 +59,8 @@ function Hero() {
                         <span className='text-md sm:text-sm'>and</span>
                         <span className='text-md whitespace-nowrap sm:text-sm 
                             border-[1px] border-grey px-[2vw] py-[1.5vw] 
-                            sm:px-4 sm:py-2 rounded-full'>digital product design</span>
+                            sm:px-4 sm:py-2 rounded-full'>
+                                digital product design</span>
                         <span>.</span>
                     </div>
                 </div>
