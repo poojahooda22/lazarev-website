@@ -39,7 +39,8 @@ function Hero() {
                     our expertise in
                 </p>
                 <div 
-                    className='sm:mt-[.5vw] flex flex-col items-start sm:flex sm:flex-row sm:items-center 
+                    className='sm:mt-[.5vw] flex flex-col items-start 
+                    sm:flex sm:flex-row sm:items-center 
                     mt-[1vw] justify-center gap-2'
                 >
                     <div className='flex gap-2'>
