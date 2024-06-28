@@ -67,7 +67,6 @@ function Hero() {
                         <span>.</span>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
