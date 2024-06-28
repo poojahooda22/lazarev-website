@@ -31,7 +31,8 @@ function Hero() {
             {/* // p tag */}
             <div className='flex flex-col items-start sm:items-center justify-center sm:text-center mt-[6vw] sm:mt-[3vw]'>
                 <p 
-                    className='w-[80%] sm:w-2/3 text-md leading-[5vw] font-medium
+                    className='w-[80%] sm:w-2/3 text-md 
+                    leading-[5vw] font-medium
                     sm:text-sm tracking-tighter sm:leading-[1.3vw]'
                 >
                     We partner AI & ML businesses, guiding 
