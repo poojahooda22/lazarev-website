@@ -50,7 +50,8 @@ function Hero() {
                         <span className='text-md whitespace-nowrap  sm:text-sm 
                         border-[1px] border-grey px-[2vw] py-[1.5vw] 
                         sm:px-4 sm:py-2 rounded-full'>
-                            user experience</span>
+                            user experience
+                            </span>
                     </div> 
                     <div className='mt-[0vw] flex gap-2 items-center'>
                         <span className='text-md sm:text-sm'>and</span>
