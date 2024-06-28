@@ -15,7 +15,7 @@ function Header() {
         'About Agency'
     ]
 
-    const handleMove = () => {
+    const handleMove = function () {
         let tl = gsap.timeline()
         tl.to('.navBottom', {
             bottom: '-150%',
@@ -32,7 +32,7 @@ function Header() {
          })
     }
 
-    const handleLeave = () => {
+    const handleLeave = function () {
         let tl = gsap.timeline()
         tl.to('.navElem h5 span', {
             y: 20,
@@ -42,12 +42,12 @@ function Header() {
         })
         tl.to('.navElem h5', {
             display: 'none', 
-            duration: .1   
+            duration: .05   
         })
         tl.to('.navBottom', {
             bottom: '0%',
             height: '0%',
-            duration: .1
+            duration: .05
         })
     }
 
