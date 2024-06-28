@@ -14,7 +14,8 @@ function Hero() {
             <div 
                 className='uppercase tracking-tighter font-bold
                 text-2xl leading-[14vw]
-                sm:text-xl  sm:leading-[8vw] sm:text-center'
+                sm:text-xl  sm:leading-[8vw] 
+                sm:text-center'
             >
                 <div>
                     <h1 className='sm:inline-flex items-center'><span className='block sm:mr-8'>AI & ML </span> Pr<span className='inline-block pl-1 sm:pl-2'>
