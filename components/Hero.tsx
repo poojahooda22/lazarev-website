@@ -52,7 +52,7 @@ function Hero() {
                         sm:px-4 sm:py-2 rounded-full'
                         >
                             user experience
-                            </span>
+                        </span>
                     </div> 
                     <div className='mt-[0vw] flex gap-2 items-center'>
                         <span className='text-md sm:text-sm'>and</span>
