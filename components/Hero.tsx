@@ -33,7 +33,8 @@ function Hero() {
                 <p 
                     className='w-[80%] sm:w-2/3 text-md 
                     leading-[5vw] font-medium
-                    sm:text-sm tracking-tighter sm:leading-[1.3vw]'
+                    sm:text-sm tracking-tighter 
+                    sm:leading-[1.3vw]'
                 >
                     We partner AI & ML businesses, guiding 
                     them from series 
