@@ -5,7 +5,7 @@ function Marquees() {
 
   const data = [
     'https://lazarev.kiev.ua/la24/rd.svg',
-      'https://lazarev.kiev.ua/la24/awww.svg',
+    'https://lazarev.kiev.ua/la24/awww.svg',
       'https://lazarev.kiev.ua/la24/webby.svg',
       'https://lazarev.kiev.ua/la24/fwa.svg',
       'https://lazarev.kiev.ua/la24/forbes.svg',
