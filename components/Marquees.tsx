@@ -21,7 +21,8 @@ function Marquees() {
           <Marquee 
             key={index} 
             item={item} 
-          />)}
+          />
+          )}
       </div>
     </div>
   )
