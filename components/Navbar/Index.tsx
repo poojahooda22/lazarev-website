@@ -1,10 +1,11 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import Button from '../Button/Index'
 import style from './Style.module.css'
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 
 function Header() {
+    const [isActive, setIsActive] = useState(false);
 
     const data = [
         'Case studies', 
@@ -15,40 +16,46 @@ function Header() {
         'About Agency'
     ]
 
-    const handleMove = function () {
+    
+
+    const handleMove = () => {
         let tl = gsap.timeline()
         tl.to('.navBottom', {
-            bottom: '-150%',
-            height: '150%'
+            bottom: '-170%',
+            height: '170%'
         })
         tl.to('.navElem h5', {
            display: 'block',
         })
-        tl.from('.navElem h5 span', {
-            y: 20,
-            stagger: {
-                amount: 0.3
-            }
-         })
-    }
-
-    const handleLeave = function () {
-        let tl = gsap.timeline()
-        tl.to('.navElem h5 span', {
+        tl.fromTo('.navElem h5 span', {
             y: 20,
             stagger: {
                 amount: 0.1
             }
-        })
-        tl.to('.navElem h5', {
-            display: 'none', 
-            duration: .05   
+           },
+            {
+                y: 0,
+                stagger: {
+                    amount: 0.1
+                }
+            }
+        )
+    }
+
+    const handleLeave =  () => {
+        let tl = gsap.timeline()
+        tl.to('.navElem h5 span', {
+            y: 20,
+            stagger: {
+                amount: -0.1
+            }
         })
         tl.to('.navBottom', {
             bottom: '0%',
             height: '0%',
-            duration: .05
-        })
+            ease: 'expo',
+            duration: .1
+        }, '-=.4')
     }
 
   return (
@@ -65,7 +72,7 @@ function Header() {
             {/* center */}
             <div 
                 onMouseEnter={handleMove}
-                onMouseLeave={handleLeave}
+                onMouseLeave={handleLeave} 
                 className={`listNav ${style.listNav} hidden sm:flex items-start 
                 gap-[2vw] text-xs relative z-[2]
                 font-semibold tracking-tighter leading-none`}
