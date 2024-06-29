@@ -62,7 +62,7 @@ function Header() {
     }
 
   return (
-    <div className='w-full fixed top-0 sm:left-0 cursor-pointer 
+    <div className='w-full fixed top-0 sm:left-0 
         flex items-start bg-black
         justify-between h-[12vh]
         py-[5vw] px-[5vw] sm:px-[8vw] sm:py-[2vw]'
@@ -77,7 +77,9 @@ function Header() {
             <div 
                 onMouseEnter={handleMove}
                 onMouseLeave={handleLeave} 
-                className='bg-white h-6'>
+                className=' h-6 cursor-pointer '
+            >
+                
                 <div 
                     className={`listNav ${style.listNav} hidden sm:flex items-start 
                     gap-[2vw] text-xs relative z-[2]
