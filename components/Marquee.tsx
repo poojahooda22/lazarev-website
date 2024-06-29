@@ -4,13 +4,7 @@ import React from 'react'
 function Marquee(item: any) {
   return (
     <div> 
-      {item.map((url: string, index: number) => {
-        return (
-          <div key={index}>
-            <Image src={url} alt='Marquee' width={100} height={100} />
-          </div>
-        )
-      })}
+       <Image src={item.item} alt='Marquee' width={32} height={100} />
     </div>
   )
 }
