@@ -50,6 +50,9 @@ function Header() {
                 amount: -0.1
             }
         })
+        tl.to('.navElem h5', {
+            display: 'none',
+         })
         tl.to('.navBottom', {
             bottom: '0%',
             height: '0%',
@@ -63,6 +66,7 @@ function Header() {
         flex items-start bg-black
         justify-between h-[12vh]
         py-[5vw] px-[5vw] sm:px-[8vw] sm:py-[2vw]'
+        
     >
         
         {/* //logo */}
@@ -73,49 +77,53 @@ function Header() {
             <div 
                 onMouseEnter={handleMove}
                 onMouseLeave={handleLeave} 
-                className={`listNav ${style.listNav} hidden sm:flex items-start 
-                gap-[2vw] text-xs relative z-[2]
-                font-semibold tracking-tighter leading-none`}
-            >
-                <div className={`navElem ${style.navElem}`}>
-                    <h3>Case Studies</h3>
-                </div>
-                <div className={`navElem ${style.navElem}`}>
-                    <h3>Areas of expertise</h3>
-                    <h5><span>🔥 AI & ML</span></h5>
-                    <h5><span>Fin Tech</span></h5>
-                    <h5><span>Real Estate</span></h5>
-                    <h5><span>E-commerce</span></h5>
-                    <h5><span>Web3</span></h5>
-                </div>
-                <div className={`navElem ${style.navElem}`}>
-                    <h3>UI UX design</h3>
-                    <h5><span>UX audit</span></h5>
-                    <h5><span>UI design</span></h5>
-                    <h5><span>UX design</span></h5>
-                    <h5><span>UX research</span></h5>
-                </div>
-                <div className={`navElem ${style.navElem}`}>
-                    <h3>Product design</h3>
-                    <h5><span>SaaS</span></h5>
-                    <h5><span>Web App</span></h5>
-                    <h5><span>mobile app</span></h5>
-                    <h5><span>website</span></h5>                   
-                </div>
-                <div className={`navElem ${style.navElem}`}>
-                    <h3>Design process</h3>
-                    <h5><span>MVP</span></h5>
-                    <h5><span>Relaunch</span></h5>                
-                </div>
-                <div className={`navElem ${style.navElem}`}>
-                    <h3>About agency</h3>
-                    <h5><span>Our Story</span></h5>
-                    <h5><span>Client&apos;s Feedback</span></h5>
-                    <h5><span>Careers</span></h5>       
-                    <h5><span></span></h5>       
-                    <h5><span>News</span></h5>                       
+                className='bg-white h-6'>
+                <div 
+                    className={`listNav ${style.listNav} hidden sm:flex items-start 
+                    gap-[2vw] text-xs relative z-[2]
+                    font-semibold tracking-tighter leading-none`}
+                >
+                    <div className={`navElem ${style.navElem}`}>
+                        <h3>Case Studies</h3>
+                    </div>
+                    <div className={`navElem ${style.navElem}`}>
+                        <h3>Areas of expertise</h3>
+                        <h5><span>🔥 AI & ML</span></h5>
+                        <h5><span>Fin Tech</span></h5>
+                        <h5><span>Real Estate</span></h5>
+                        <h5><span>E-commerce</span></h5>
+                        <h5><span>Web3</span></h5>
+                    </div>
+                    <div className={`navElem ${style.navElem}`}>
+                        <h3>UI UX design</h3>
+                        <h5><span>UX audit</span></h5>
+                        <h5><span>UI design</span></h5>
+                        <h5><span>UX design</span></h5>
+                        <h5><span>UX research</span></h5>
+                    </div>
+                    <div className={`navElem ${style.navElem}`}>
+                        <h3>Product design</h3>
+                        <h5><span>SaaS</span></h5>
+                        <h5><span>Web App</span></h5>
+                        <h5><span>mobile app</span></h5>
+                        <h5><span>website</span></h5>                   
+                    </div>
+                    <div className={`navElem ${style.navElem}`}>
+                        <h3>Design process</h3>
+                        <h5><span>MVP</span></h5>
+                        <h5><span>Relaunch</span></h5>                
+                    </div>
+                    <div className={`navElem ${style.navElem}`}>
+                        <h3>About agency</h3>
+                        <h5><span>Our Story</span></h5>
+                        <h5><span>Client&apos;s Feedback</span></h5>
+                        <h5><span>Careers</span></h5>       
+                        <h5><span></span></h5>       
+                        <h5><span>News</span></h5>                       
+                    </div>
                 </div>
             </div>
+            
             <div 
                 className={`hidden sm:inline-block absolute 
                 navBottom ${style.navBottom} 
