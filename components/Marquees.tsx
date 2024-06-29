@@ -4,7 +4,7 @@ import Marquee from './Marquee'
 function Marquees() {
 
     const data = [
-        'https://lazarev.kiev.ua/la24/rd.svg',
+      'https://lazarev.kiev.ua/la24/rd.svg',
         'https://lazarev.kiev.ua/la24/awww.svg'
     ]
   return (
