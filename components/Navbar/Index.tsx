@@ -122,7 +122,7 @@ function Header() {
                     </div>
                 </div>
             </div>
-        
+    
             <div 
                 className={`hidden sm:inline-block absolute 
                 navBottom ${style.navBottom} 
