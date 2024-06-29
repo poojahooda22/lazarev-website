@@ -78,8 +78,7 @@ function Header() {
                 onMouseEnter={handleMove}
                 onMouseLeave={handleLeave} 
                 className=' h-6 cursor-pointer '
-            >
-                
+            >            
                 <div 
                     className={`listNav ${style.listNav} hidden sm:flex items-start 
                     gap-[2vw] text-xs relative z-[2]
