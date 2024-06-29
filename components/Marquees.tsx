@@ -8,7 +8,8 @@ function Marquees() {
       'https://lazarev.kiev.ua/la24/awww.svg',
       'https://lazarev.kiev.ua/la24/webby.svg',
       'https://lazarev.kiev.ua/la24/fwa.svg',
-      'https://lazarev.kiev.ua/la24/forbes.svg'
+      'https://lazarev.kiev.ua/la24/forbes.svg',
+      'https://lazarev.kiev.ua/la24/wf.svg'
     ]
   return (
     <div className=''>
