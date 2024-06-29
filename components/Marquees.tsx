@@ -22,7 +22,7 @@ function Marquees() {
             key={index} 
             item={item} 
           />
-          )}
+        )}
       </div>
     </div>
   )
