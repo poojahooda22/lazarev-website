@@ -13,6 +13,7 @@ function Marquees() {
     'https://lazarev.kiev.ua/la24/pmi.svg',
     'https://lazarev.kiev.ua/la24/adweek.svg'
   ]
+  
   return (
     <div className='w-full max-w-screen-xl mx-auto'>
       <div className='flex items-center justify-center gap-4'>
