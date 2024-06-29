@@ -19,7 +19,7 @@ function Marquees() {
       <div className='flex items-center justify-center gap-4'>
         {data.map((item, index) => 
           <Marquee key={index} 
-          item={item} 
+            item={item} 
           />)}
       </div>
     </div>
