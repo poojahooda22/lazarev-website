@@ -66,7 +66,7 @@ function Header() {
         flex items-start bg-black
         justify-between h-[12vh]
         py-[5vw] px-[5vw] sm:px-[8vw] sm:py-[2vw]'
-    
+
     >
         
         {/* //logo */}
