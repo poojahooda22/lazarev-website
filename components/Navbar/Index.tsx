@@ -75,7 +75,7 @@ function Header() {
             <div 
                 onMouseEnter={handleMove}
                 onMouseLeave={handleLeave} 
-                className=' h-6 cursor-pointer '
+                className=' h-6 cursor-pointer'
             >            
                 <div 
                     className={`listNav ${style.listNav} hidden sm:flex items-start 
