@@ -18,7 +18,8 @@ function Marquees() {
     <div className='w-full max-w-screen-xl mx-auto'>
       <div className='flex items-center justify-center gap-4'>
         {data.map((item, index) => 
-          <Marquee key={index} 
+          <Marquee 
+          key={index} 
             item={item} 
           />)}
       </div>
