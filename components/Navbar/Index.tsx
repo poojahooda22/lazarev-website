@@ -16,10 +16,10 @@ function Header() {
         'About Agency'
     ]
 
-    
+    let tl = gsap.timeline()
 
     const handleMove = () => {
-        let tl = gsap.timeline()
+        
         tl.to('.navBottom', {
             bottom: '-170%',
             height: '170%'
@@ -43,7 +43,6 @@ function Header() {
     }
 
     const handleLeave =  () => {
-        let tl = gsap.timeline()
         tl.to('.navElem h5 span', {
             y: 20,
             stagger: {
