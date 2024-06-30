@@ -32,7 +32,7 @@ function Header() {
             stagger: {
                 amount: 0.1
             }},
-    {
+{
                 y: 0,
                 stagger: {
                     amount: 0.1
