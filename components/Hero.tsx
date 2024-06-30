@@ -8,7 +8,7 @@ function Hero() {
             className='w-full h-full max-w-screen-xl mx-auto 
             flex flex-col 
             items-start px-[5vw] sm:px-0
-            sm:items-center sm:justify-center pt-[22vw] sm:pt-[4vw]'
+            sm:items-center sm:justify-center pt-[22vw] sm:pt-[2vw]'
         >
             {/* // Tag line with H1 */}
             <div 
