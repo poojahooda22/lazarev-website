@@ -7,7 +7,7 @@ function Marquee(item: any) {
       <Image 
         src={item.item} 
         alt='Marquee' 
-        width={32} height={32} 
+        width={8} height={32} 
         className='w-[4vw]'
       />
     </div>
