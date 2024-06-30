@@ -6,7 +6,7 @@ function Marquee(item: any) {
   return (
     <motion.div
       initial={{ x: 0}}
-      
+      animate={{ x: -100, }}
     > 
       <Image 
         src={item.item} 
