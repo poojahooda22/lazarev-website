@@ -32,7 +32,7 @@ function Hero() {
             <div 
                 className='flex flex-col items-start 
                 sm:items-center sm:text-center
-                justify-center mt-[6vw] sm:mt-[3vw]'
+                justify-center mt-[6vw] '
             >
                 <p 
                     className='w-[80%] sm:w-2/3 text-md 
