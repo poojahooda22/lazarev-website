@@ -5,6 +5,7 @@ import {motion} from 'framer-motion';
 function Marquee(item: any) {
   return (
     <motion.div
+      initial={{ x: 0}}
       
     > 
       <Image 
