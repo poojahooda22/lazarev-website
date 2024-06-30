@@ -7,7 +7,7 @@ function Marquee(item: any) {
     <motion.div
       initial={{ x: "0"}}
       animate={{ x: '-100%'}}
-      transition={{ repeat: Infinity, ease: "linear", duration: 5}}
+      transition={{ repeat: Infinity, ease: "linear", duration: .8}}
     > 
       <Image 
         src={item.item} 
