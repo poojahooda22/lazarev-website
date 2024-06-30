@@ -31,7 +31,7 @@ function Hero() {
             {/* // p tag */}
             <div 
                 className='flex flex-col items-start 
-                sm:items-center sm:text-center
+                sm:items-center sm:text-centersm:mt-[3vw]
                 justify-center mt-[6vw] '
             >
                 <p 
