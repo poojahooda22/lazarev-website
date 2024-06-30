@@ -4,7 +4,9 @@ import {motion} from 'framer-motion';
 
 function Marquee(item: any) {
   return (
-    <motion.div> 
+    <motion.div
+      
+    > 
       <Image 
         src={item.item} 
         alt='Marquee' 
