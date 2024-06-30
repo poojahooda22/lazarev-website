@@ -8,7 +8,7 @@ function Marquee(item: any) {
         src={item.item} 
         alt='Marquee' 
         width={8} height={32} 
-        className='w-[4vw] h-[2vw]'
+        className='w-[3.5vw] h-[2.5vw]'
       />
     </div>
   )
