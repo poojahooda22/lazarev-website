@@ -5,13 +5,13 @@ import {motion} from 'framer-motion';
 function Marquee(item: any) {
   return (
     <div
-      className='w-[2vw] '
+      className='w-full flex items-center justify-center gap-[2vw]'
     > 
       <Image 
         src={item.item} 
         alt='Marquee' 
         width={32} height={32} 
-        className='w-[4.5vw] h-[2.5vw]'
+        className='w-[5.5vw] h-[3vw]'
       />
     </div>
   )
