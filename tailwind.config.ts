@@ -18,7 +18,8 @@ const config: Config = {
       black: '#111111',
       blue: '#4f5bff',
       green: '#0da34e',
-      grey: '#686875'
+      grey: '#686875',
+      transparent: 'transparent',
     },
     fontSize: {
       xs: '0.85vw',
