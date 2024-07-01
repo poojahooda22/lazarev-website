@@ -5,9 +5,7 @@ import {motion} from 'framer-motion';
 function Marquee(item: any) {
   return (
     <motion.div
-      initial={{ x: "0"}}
-      animate={{ x: '-100%'}}
-      transition={{ repeat: Infinity, ease: "linear", duration: .8}}
+      className=''
     > 
       <Image 
         src={item.item} 
