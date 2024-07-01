@@ -15,9 +15,7 @@ function Hero() {
             scale: 0.88,
             rotate: '-24deg'
         })
-        // gsap.to('.g-path', {
-        //     rotate: '-22deg'
-        // })
+
     }
 
     const handleScaleLeave = () => {
