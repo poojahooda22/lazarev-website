@@ -7,7 +7,7 @@ function Marquee({imagesurl, direction}: {imagesurl: any, direction: any}) {
     return (
         <div className=' flex items-center justify-center gap-[10vw] sm:gap-[3vw] py-[1.5vw] sm:py-[1.5vw] overflow-hidden'>
             <motion.div 
-                initial={{ x: direction === 'left' ? '0' : '-100%'}}
+              initial={{ x: direction === 'left' ? '0' : '-100%'}}
                 animate={{ x: direction === 'left' ? '-100%' : '0'}}
                 transition={{ease: 'linear', duration: 30, repeat: Infinity}}
                 className='flex flex-shrink-0 gap-[10vw] sm:gap-[3vw]'>
