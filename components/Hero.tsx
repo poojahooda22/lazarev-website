@@ -7,10 +7,12 @@ import React from 'react';
 
 function Hero() {
 
-    
+    const tl = gsap.timeline()
     useGSAP(() => {
 
     })
+
+
   return (
     <div className='w-full h-[100vh]'>
         <div   
