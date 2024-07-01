@@ -23,9 +23,7 @@ function Hero() {
             scale: 1,
             rotate: 0
         })
-        // gsap.to('.g-path', {
-        //     rotate: 0
-        // })
+
     }
 
     
