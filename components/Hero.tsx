@@ -12,20 +12,22 @@ function Hero() {
 
     const handleScale = () => {
         gsap.to('.c-bttn__morph', {
-            scale: 0.78,
+            scale: 0.88,
+            rotate: '-24deg'
         })
-        gsap.to('.g-path', {
-            rotate: '-22deg'
-        })
+        // gsap.to('.g-path', {
+        //     rotate: '-22deg'
+        // })
     }
 
     const handleScaleLeave = () => {
         gsap.to('.c-bttn__morph', {
             scale: 1,
-        })
-        gsap.to('.g-path', {
             rotate: 0
         })
+        // gsap.to('.g-path', {
+        //     rotate: 0
+        // })
     }
 
     
