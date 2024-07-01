@@ -5,15 +5,14 @@ import {motion} from 'framer-motion';
 function Marquee(item: any) {
   return (
     <div
-      className=' '
+      className='w-[2vw] '
     > 
-      <h1>heelllo</h1>
-      {/* <Image 
+      <Image 
         src={item.item} 
         alt='Marquee' 
-        width={8} height={32} 
-        className='w-[3.5vw] h-[2.5vw]'
-      /> */}
+        width={32} height={32} 
+        className='w-[4.5vw] h-[2.5vw]'
+      />
     </div>
   )
 }
