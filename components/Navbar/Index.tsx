@@ -59,7 +59,7 @@ function Header() {
     }
 
   return (
-    <div className='w-full fixed top-0 sm:left-0 
+    <div className='w-full fixed top-0 sm:left-0 z-[9]
         flex items-start bg-black
         justify-between h-[12vh]
         py-[5vw] px-[5vw] sm:px-[8vw] sm:py-[2vw]'
