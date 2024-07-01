@@ -6,7 +6,6 @@ import { useGSAP } from '@gsap/react';
 function Button() {
 
   
-    
   const handleMove = () => {
     gsap.to('.btnDiv', {
       left: '68%',
