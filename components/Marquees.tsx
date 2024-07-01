@@ -19,7 +19,7 @@ function Marquees() {
 
   return (
     <div className='w-full max-w-screen-xl mx-auto -mt-[2vw] flex items-center justify-center pb-[4vw]'>
-      <div className='w-1/2 flex items-center justify-center gap-[2vw]  overflow-hidden'>
+      <div className='w-1/2 flex items-center justify-center gap-[2vw]'>
         {data.map((item, index) => {
           return (
             <Marquee key={index} item={item} />
