@@ -19,7 +19,6 @@ function Header() {
     let tl = gsap.timeline()
 
     const handleMove = () => {
-
         tl.to('.navBottom', {
             bottom: '-170%',
             height: '170%'
