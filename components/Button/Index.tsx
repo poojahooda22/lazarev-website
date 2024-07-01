@@ -5,7 +5,7 @@ import { useGSAP } from '@gsap/react';
 
 function Button() {
 
-  useEffect(() =>
+  useEffect(() =
     
   
 
