@@ -27,7 +27,7 @@ function Button() {
   })
 
   return (
-    <div>
+    <div className='cursor-pointer'>
       <div onMouseEnter={handleMove} onMouseLeave={handleLeave} 
         className={`button ${style.button} relative flex items-center uppercase pl-4`}>
         <div className={`btnDiv ${style.btnDiv}  absolute top-0 left-0 bg-green w-full h-full z-1`}></div>
