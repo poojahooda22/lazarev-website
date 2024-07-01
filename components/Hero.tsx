@@ -97,7 +97,7 @@ function Hero() {
             <div 
                 className='flex flex-col items-start 
                 sm:items-center sm:text-center sm:mt-[3vw]
-                justify-center mt-[6vw]'
+                justify-center mt-[8vw]'
                 ref={pRef}
             >
                 <p 
