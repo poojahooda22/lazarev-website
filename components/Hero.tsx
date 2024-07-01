@@ -9,6 +9,8 @@ function Hero() {
     const scndRef = useRef<HTMLHeadingElement | null>(null);
     const tl = gsap.timeline()
 
+    const pRef = useRef(null);
+
 
     const handleScale = () => {
         gsap.to('.c-bttn__morph', {
@@ -51,6 +53,12 @@ function Hero() {
             opacity: 0,
             stagger: 0.3,
             ease: 'power4.out'
+        })
+        tl.from(pRef.current, {
+            y: 150,
+            opacity: 0,
+            stagger: 0.3,
+            ease: 'power4.out' 
         })
     })
 
@@ -99,6 +107,7 @@ function Hero() {
                 className='flex flex-col items-start 
                 sm:items-center sm:text-center sm:mt-[3vw]
                 justify-center mt-[6vw]'
+                ref={pRef}
             >
                 <p 
                     className='w-[80%] sm:w-2/3 text-md 
