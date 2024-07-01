@@ -1,7 +1,7 @@
 import { useGSAP } from '@gsap/react';
 import Image from 'next/image'
 import React from 'react';
-
+import gsap from 'gsap';
 
 
 
