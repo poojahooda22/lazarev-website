@@ -7,7 +7,7 @@ function Button() {
 
   useEffect(() => {
     
-  })
+  }
 
   const handleMove = () => {
     gsap.to('.btnDiv', {
