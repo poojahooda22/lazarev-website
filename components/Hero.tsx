@@ -5,8 +5,8 @@ import gsap from 'gsap';
 
 function Hero() {
 
-    // const headerRef = useRef<HTMLHeadingElement | null>(null);
-    const scndRef = useRef<HTMLHeadingElement | null>(null);
+    const headerRef = useRef(null);
+    const scndRef = useRef(null);
     const tl = gsap.timeline()
 
     const pRef = useRef(null);
@@ -30,17 +30,8 @@ function Hero() {
 
     
     useGSAP(() => {
-        // let clutter = "";
-        // const splittedText = (scndRef.current as HTMLElement)?.textContent?.split("")
 
-        // if (splittedText) {
-        //     splittedText.forEach(function(e: string) {
-        //         clutter += `<span>${e}</span>`
-        //     })
-        // }
-        // (scndRef.current as unknown as HTMLElement).innerHTML = clutter;
-
-        tl.from("h1 span", {
+        tl.from(headerRef.current, {
             y: 150,
             ease: 'power4.out'
         }),
@@ -79,7 +70,7 @@ function Hero() {
                 sm:text-center'
             >
                 <div  className='firsth1 overflow-hidden'>
-                    <h1 className='sm:inline-flex items-center'>
+                    <h1 ref={headerRef} className='sm:inline-flex items-center'>
                         <span className='block sm:mr-8'>AI & ML </span> <span>Pr</span>
                         <span 
                             onMouseEnter={handleScale}
