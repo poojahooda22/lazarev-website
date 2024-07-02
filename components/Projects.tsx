@@ -9,7 +9,11 @@ const Projects = () => {
             <p>Exclusive insights into UI/UX and product design</p>
           </div>
           <div>
-            <p>Being a design studio</p>
+            <p>
+              Being a design studio at the forefront of digital transformation
+              and product design, we take it upon ourselves to drop some knowledge,
+              
+            </p>
           </div>
         </div>
         <div className='w-1/2'></div>
