@@ -6,7 +6,7 @@ const Project = () => {
         <div>
             <h1>The Gestalt Principles of Design: 
                 How Design Forms visual perception
-                </h1>
+            </h1>
         </div>
         <div>
             <p>6 min read </p>
