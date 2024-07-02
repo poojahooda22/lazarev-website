@@ -7,8 +7,9 @@ const Projects = () => {
     {
       title: 'The Gestalt Principles of Design: How Design Forms visual perception',
       time: '6 min read',
-      image: ''
-    }
+      image: '../public/images/cover1.webp'
+    },
+    
   ]
 
   return (
