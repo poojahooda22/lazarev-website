@@ -2,6 +2,11 @@ import React from 'react'
 import Project from './Project'
 
 const Projects = () => {
+
+  const data = [
+    
+  ]
+
   return (
     <div className='w-full h-[30vw] pb-[4vw]'>
       <div className='w-full h-full max-w-screen-xl mx-auto border-t-[.1px] border-grey pt-[1.5vw] flex'>
