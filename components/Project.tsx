@@ -2,7 +2,7 @@ import React from 'react'
 
 const Project = () => {
   return (
-    <div className='flex items-start justify-between border'>
+    <div className='flex items-start justify-between border-t-[.1px] border-grey'>
         <div className='w-2/3'>
             <h1 className='text-md leading-[2vw]'>The Gestalt Principles of Design: 
                 How Design Forms visual perception
