@@ -15,7 +15,7 @@ const Projects = () => {
       image: '../public/images/Cover Img.webp'
     },
     {
-      title: 'Effective Design Principles For Crypto Web Design',
+      title: '',
       time: '3 min read',
       image: '../public/images/Cover Img.webp'
     },
