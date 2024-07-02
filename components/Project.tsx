@@ -3,8 +3,8 @@ import React from 'react'
 const Project = () => {
   return (
     <div className='flex items-start justify-between'>
-        <div>
-            <h1 className='text-md'>The Gestalt Principles of Design: 
+        <div className=''>
+            <h1 className='text-md leading-[2vw]'>The Gestalt Principles of Design: 
                 How Design Forms visual perception
             </h1>
         </div>
