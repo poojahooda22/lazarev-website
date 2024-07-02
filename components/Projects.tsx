@@ -10,7 +10,7 @@ const Projects = () => {
       image: '../public/images/cover1.webp'
     },
     {
-      title: '',
+      title: 'Effective Design ',
       time: '3 min read',
       image: '../public/images/cover1.webp'
     }
