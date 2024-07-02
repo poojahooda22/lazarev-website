@@ -4,7 +4,7 @@ const Project = () => {
   return (
     <div className='flex items-start justify-between'>
         <div>
-            <h1>The Gestalt Principles of Design: 
+            <h1 className='text-md'>The Gestalt Principles of Design: 
                 How Design Forms visual perception
             </h1>
         </div>
