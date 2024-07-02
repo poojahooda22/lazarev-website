@@ -9,7 +9,11 @@ const Projects = () => {
       time: '6 min read',
       image: '../public/images/cover1.webp'
     },
-    
+    {
+      title: '',
+      time: '3 min read',
+      image: '../public/images/cover1.webp'
+    }
   ]
 
   return (
