@@ -4,7 +4,11 @@ import Project from './Project'
 const Projects = () => {
 
   const data = [
-    
+    {
+      title: 'The Gestalt Principles of Design: How Design Forms visual perception',
+      time: '6 min read',
+      image: ''
+    }
   ]
 
   return (
