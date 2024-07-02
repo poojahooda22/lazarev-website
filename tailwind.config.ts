@@ -24,7 +24,7 @@ const config: Config = {
     fontSize: {
       xs: '0.75vw',
       sm: '1vw',
-      md: '4vw',
+      md: '1.6vw',
       lg: '6vw',
       xl: '8vw',
       '2xl': '14vw',
