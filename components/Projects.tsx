@@ -5,8 +5,8 @@ const Projects = () => {
     <div className='w-full h-[30vw] pb-[4vw]'>
       <div className='w-full h-full max-w-screen-xl mx-auto border-t-[1px] border-grey pt-[1vw]'>
         <div className='w-1/2 h-full flex flex-col items-start justify-between'>
-          <div>
-            <p>Exclusive insights into UI/UX and product design</p>
+          <div className='w-1/2'>
+            <p className=''>Exclusive insights into UI/UX and product design</p>
           </div>
           <div className='w-2/3'>
             <p>
