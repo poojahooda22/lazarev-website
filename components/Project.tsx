@@ -8,7 +8,7 @@ const Project = () => {
                 How Design Forms visual perception
             </h1>
         </div>
-        <div>
+        <div className=''>
             <p className='text-grey text-xs'>6 min read </p>
             <div className='w-[1vw]'>
                 <svg fill="none" viewBox="0 0 15 15">
