@@ -10,10 +10,11 @@ const Projects = () => {
       image: '../public/images/cover1.webp'
     },
     {
-      title: 'Effective Design ',
+      title: 'Effective Design Principles For Crypto Web Design',
       time: '3 min read',
-      image: '../public/images/cover1.webp'
-    }
+      image: '../public/images/Cover Img.webp'
+    },
+    
   ]
 
   return (
