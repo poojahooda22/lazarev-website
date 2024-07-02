@@ -8,6 +8,9 @@ const Projects = () => {
           <div>
             <p>Exclusive insights into UI/UX and product design</p>
           </div>
+          <div>
+            <p>Being a design studio</p>
+          </div>
         </div>
         <div className='w-1/2'></div>
       </div>
