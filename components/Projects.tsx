@@ -16,7 +16,7 @@ const Projects = () => {
     },
     {
       title: '',
-      time: '3 min read',
+      time: '5 min read',
       image: '../public/images/Cover Img.webp'
     },
 
