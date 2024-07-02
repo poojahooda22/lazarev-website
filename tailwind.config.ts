@@ -11,7 +11,7 @@ const config: Config = {
       sm: '480px',
       md: '768px',
       lg: '976px',
-      xl: '1640px',     
+      xl: '1840px',     
     },
     colors: {
       white: '#ffffff',
@@ -22,7 +22,7 @@ const config: Config = {
       transparent: 'transparent',
     },
     fontSize: {
-      xs: '0.85vw',
+      xs: '0.75vw',
       sm: '1vw',
       md: '4vw',
       lg: '6vw',
