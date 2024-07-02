@@ -59,9 +59,9 @@ function Header() {
 
   return (
     <div className='w-full fixed top-0 sm:left-0 z-[9]
-        flex items-start bg-black
+        flex items-start bg-black 
         justify-between h-[12vh]
-        py-[5vw] px-[5vw] sm:px-[8vw] sm:py-[2vw]'
+        py-[5vw] px-[5vw] sm:px-0 sm:py-[2vw]'
     >
         {/* //logo */}
         <div className='w-[28vw] sm:w-[8vw] '>
@@ -121,7 +121,7 @@ function Header() {
             <div 
                 className={`hidden sm:inline-block absolute 
                 navBottom ${style.navBottom} 
-                w-[84%] h-[0%] text-[.7vw] bg-black z-[1]`}
+                w-[100%] h-[0%] text-[.7vw] bg-black z-[1]`}
             >  
             </div>
             <div className='hidden sm:inline-block'>
