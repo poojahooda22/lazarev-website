@@ -21,4 +21,5 @@
     font-size: .8vw;
     text-transform: capitalize;
     display: inline-block;
+    white-space: nowrap;
 }
