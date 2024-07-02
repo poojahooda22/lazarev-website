@@ -4,6 +4,7 @@ import Cursor from '@/components/cursor/Index';
 import Hero from '@/components/Hero';
 import Marquees from '@/components/Marquees';
 import Header from '@/components/Navbar/Index';
+import Projects from '@/components/Projects';
 import { useRef,  useEffect } from 'react';
 
 
@@ -24,6 +25,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Marquees />
+      <Projects />
     </main>
   );
 }
