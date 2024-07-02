@@ -2,9 +2,9 @@ import React from 'react'
 
 const Project = () => {
   return (
-    <div>
+    <div className='flex items-start justify-between'>
         <div>
-
+            <h1>The Gestalt Principles of Design: How Design Forms visual perception</h1>
         </div>
         <div>
             <p>6 min read </p>
