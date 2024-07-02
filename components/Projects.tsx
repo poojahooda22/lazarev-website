@@ -1,4 +1,5 @@
 import React from 'react'
+import Project from './Project'
 
 const Projects = () => {
   return (
@@ -17,7 +18,7 @@ const Projects = () => {
           </div>
         </div>
         <div className='w-1/2'>
-          <h2>pppp</h2>
+          <Project />
         </div>
       </div>
     </div>
