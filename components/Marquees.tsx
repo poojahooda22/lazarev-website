@@ -33,7 +33,8 @@ function Marquees() {
         <div 
           className='w-[4vw] h-1/2 sm:w-[3vw] sm:h-1/2 
           absolute top-0 left-0 z-[2] 
-          bg-gradient-to-r from-black to-transparent'></div>
+          bg-gradient-to-r from-black to-transparent'
+          ></div>
         {images.map((item, index) => 
           <Marquee key={index} imagesurl={item} direction={index === 0 ? "left": "right"} />
         )}
