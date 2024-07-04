@@ -27,7 +27,8 @@ const Project = ({item}: any) => {
                 </svg>
             </div>
         </div>
-        <div className='absolute w-[8vw] h-[8vw]'>
+        <div 
+        className='absolute w-[8vw] h-[8vw]'>
             <Image 
                 src={item.image} 
                 alt='cover' 
