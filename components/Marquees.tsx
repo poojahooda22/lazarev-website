@@ -25,7 +25,8 @@ function Marquees() {
   return (
     <div 
       className='w-full max-w-screen-xl mx-auto 
-      -mt-[16vw] sm:-mt-[4vw] sm:pb-[4vw] px-[5vw] sm:px-0
+      -mt-[16vw] sm:-mt-[4vw] 
+      sm:pb-[4vw] px-[5vw] sm:px-0
       flex items-center justify-center'
       >
       <div className='w-full sm:w-2/3 relative'>
