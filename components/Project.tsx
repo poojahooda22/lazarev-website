@@ -6,7 +6,6 @@ import React from 'react'
 const Project = ({item}: any) => {
 
 
-
   return (
     <div 
         className='flex items-start justify-between 
