@@ -5,7 +5,7 @@ import React from 'react'
 
 const Project = ({item}: any) => {
 
-    
+
 
   return (
     <div 
