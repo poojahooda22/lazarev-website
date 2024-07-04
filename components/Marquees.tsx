@@ -40,7 +40,6 @@ function Marquees() {
         )}
         <div className='w-[4vw] h-1/2 sm:w-[3vw] sm:h-2/3 absolute top-0 right-0 z-[2] bg-gradient-to-r from-transparent to-black'></div>
       </div>
-
     </div>
   )
 }
