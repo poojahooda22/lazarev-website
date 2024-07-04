@@ -30,7 +30,8 @@ const Project = ({item}: any) => {
             <Image 
                 src={item.image} 
                 alt='cover' 
-                width={1000} height={100} className='w-full h-full object-cover rounded-full' />
+                width={1000} 
+                height={100} className='w-full h-full object-cover rounded-full' />
         </div>
     </div>
   )
