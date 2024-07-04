@@ -20,7 +20,7 @@ function Marquees() {
           'https://lazarev.kiev.ua/la24/adweek.svg',
         ],
         [    
-        ]
+      ]
     ]
     
   return (
