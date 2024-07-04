@@ -28,7 +28,7 @@ function Marquees() {
       -mt-[16vw] sm:-mt-[4vw] 
       sm:pb-[4vw] px-[5vw] sm:px-0
       flex items-center justify-center'
-      >
+    >
       <div className='w-full sm:w-2/3 relative'>
         <div 
           className='w-[4vw] h-1/2 sm:w-[3vw] sm:h-1/2 
@@ -40,7 +40,7 @@ function Marquees() {
         )}
         <div className='w-[4vw] h-1/2 sm:w-[3vw] sm:h-2/3 absolute top-0 right-0 z-[2] bg-gradient-to-r from-transparent to-black'></div>
       </div>
-  
+
     </div>
   )
 }
