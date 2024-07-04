@@ -14,7 +14,8 @@ const Project = ({item}: any) => {
         -mt-[1.5vw] border-grey pt-[1.5vw] pb-[6vw]'
     >
         <div className='w-2/3'>
-            <h1 className='text-md leading-[2vw] capitalize'>{item.title}
+            <h1 className='text-md leading-[2vw] capitalize'>
+                {item.title}
             </h1>
         </div>
         <div className='flex items-center gap-[1.4vw]'>
