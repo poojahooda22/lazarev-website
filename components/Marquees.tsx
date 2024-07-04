@@ -5,7 +5,7 @@ import Marquee from './Marquee'
 function Marquees() {
 
     const images = [
-        [
+      [
           'https://lazarev.kiev.ua/la24/awww.svg',
           'https://lazarev.kiev.ua/la24/webby.svg',
           'https://lazarev.kiev.ua/la24/fwa.svg',
