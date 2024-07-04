@@ -33,7 +33,7 @@ const Project = ({item}: any) => {
                 width={1000} 
                 height={100} 
                 className='w-full h-full object-cover rounded-full'
-                 />
+                />
         </div>
     </div>
   )
