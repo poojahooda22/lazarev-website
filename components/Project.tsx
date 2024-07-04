@@ -9,7 +9,8 @@ const Project = ({item}: any) => {
 
   return (
     <div 
-        className='flex items-start justify-between border-t-[.1px] relative
+        className='flex items-start justify-between 
+        border-t-[.1px] relative
         -mt-[1.5vw] border-grey pt-[1.5vw] pb-[6vw]'
     >
         <div className='w-2/3'>
