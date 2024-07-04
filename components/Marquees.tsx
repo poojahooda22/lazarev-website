@@ -18,7 +18,7 @@ function Marquees() {
           'https://lazarev.kiev.ua/la24/wf.svg',
           'https://lazarev.kiev.ua/la24/pmi.svg',
           'https://lazarev.kiev.ua/la24/adweek.svg',
-        ],
+      ],
         [    
       ]
     ]
