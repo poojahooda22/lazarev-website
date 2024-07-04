@@ -28,7 +28,7 @@ const Project = ({item}: any) => {
         </div>
         <div className='absolute w-[8vw] h-[8vw]'>
             <Image 
-            src={item.image} alt='cover' width={1000} height={100} className='w-full h-full object-cover rounded-full' />
+                src={item.image} alt='cover' width={1000} height={100} className='w-full h-full object-cover rounded-full' />
         </div>
     </div>
   )
