@@ -101,7 +101,7 @@ function Hero() {
                 ref={pRef}
             >
                 <p 
-                    className='w-[80%] sm:w-2/3 text-md 
+                    className='w-[80%] sm:w-2/3 text-[4vw] 
                     leading-[5vw] font-medium
                     sm:text-sm tracking-tighter 
                     sm:leading-[1.3vw]'
@@ -117,11 +117,11 @@ function Hero() {
                     mt-[1vw] justify-center gap-2'
                 >
                     <div className='flex gap-2'>
-                        <span className='text-md whitespace-nowrap sm:text-sm 
+                        <span className='text-[4vw] whitespace-nowrap sm:text-sm 
                         border-[1px] border-grey px-[2vw] py-[1.5vw] 
                         sm:px-4 sm:py-2 rounded-full'>brand design</span>
                         <span 
-                            className='text-md whitespace-nowrap  sm:text-sm 
+                            className='text-[4vw] whitespace-nowrap  sm:text-sm 
                             border-[1px] border-grey px-[2vw] py-[1.5vw] 
                             sm:px-4 sm:py-2 rounded-full'
                         >
@@ -129,9 +129,9 @@ function Hero() {
                         </span>
                     </div> 
                     <div className='mt-[0vw] flex gap-2 items-center'>
-                        <span className='text-md sm:text-sm'>and</span>
+                        <span className='text-[4vw] sm:text-sm'>and</span>
                         <span 
-                            className='text-md whitespace-nowrap sm:text-sm 
+                            className='text-[4vw] whitespace-nowrap sm:text-sm 
                             border-[1px] border-grey px-[2vw] py-[1.5vw] 
                             sm:px-4 sm:py-2 rounded-full'
                         >
