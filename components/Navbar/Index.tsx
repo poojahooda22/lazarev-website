@@ -59,7 +59,8 @@ function Header() {
 
   return (
     <div 
-        className='w-full fixed top-0 sm:left-0 z-[9] bg-black h-[11vh] 
+        className='w-full fixed top-0 sm:left-0 z-[9] 
+        bg-black h-[11vh] 
         py-[5vw] px-[5vw] sm:px-0 sm:py-[1.5vw]'
     >
         <div 
