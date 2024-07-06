@@ -69,7 +69,8 @@ function Hero() {
                 sm:text-center'
             >
                 <div  className='firsth1 overflow-hidden'>
-                    <h1 ref={headerRef} className='sm:inline-flex items-center'>
+                    <h1 
+                    ref={headerRef} className='sm:inline-flex items-center'>
                         <span className='block sm:mr-8'>AI & ML </span>Pr
                         <span 
                             onMouseEnter={handleScale}
