@@ -73,7 +73,8 @@ function Hero() {
                         ref={headerRef} 
                         className='sm:inline-flex items-center'
                     >
-                        <span className='block sm:mr-8'>AI & ML </span>Pr
+                        <span className='block sm:mr-8'>
+                            AI & ML </span>Pr
                         <span 
                             onMouseEnter={handleScale}
                             onMouseLeave={handleScaleLeave}
