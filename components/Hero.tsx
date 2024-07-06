@@ -75,7 +75,7 @@ function Hero() {
                             onMouseEnter={handleScale}
                             onMouseLeave={handleScaleLeave}
                             className='crclebtn inline-block pl-1 sm:pl-2 cursor-pointer'
-                            >
+                        >
                             <svg 
                                 fill="none" 
                                 viewBox="0 0 131 136" 
