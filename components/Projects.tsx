@@ -36,7 +36,7 @@ const Projects = () => {
               Exclusive insights into
               <br/> 
               UI/UX and product design
-              </p>
+            </p>
           </div>
           <div className='w-2/4'>
             <p className='text-sm leading-[1.3vw]'>
