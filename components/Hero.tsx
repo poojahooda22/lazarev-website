@@ -95,7 +95,8 @@ function Hero() {
                 </div>
                 <div className='scndh1 overflow-hidden'>
                     <h2 
-                        ref={scndRef}>Design Agency </h2>
+                        ref={scndRef}
+                        >Design Agency </h2>
                 </div>
             </div>
 
