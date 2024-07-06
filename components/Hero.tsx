@@ -30,7 +30,6 @@ function Hero() {
 
     
     useGSAP(() => {
-
         // tl.from(headerRef.current, {
         //     y: 150,
         //     ease: 'power4.out'
