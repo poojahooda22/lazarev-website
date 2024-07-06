@@ -31,14 +31,14 @@ function Hero() {
     
     useGSAP(() => {
 
-        tl.from(headerRef.current, {
-            y: 150,
-            ease: 'power4.out'
-        }),
-        tl.from("h1 span .c-bttn__morph", {
-            scale:0,
-            ease: 'power4.out'
-        }),
+        // tl.from(headerRef.current, {
+        //     y: 150,
+        //     ease: 'power4.out'
+        // }),
+        // tl.from("h1 span .c-bttn__morph", {
+        //     scale:0,
+        //     ease: 'power4.out'
+        // }),
         tl.from(scndRef.current, {
             y: 150,
             opacity: 0,
