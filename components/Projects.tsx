@@ -24,7 +24,6 @@ const Projects = () => {
       time: '5 min read',
       image: '/images/Cover3.webp'
     },
-
   ]
 
   return (
