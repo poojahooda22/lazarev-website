@@ -98,7 +98,7 @@ function Hero() {
                         ref={scndRef}
                     >
                         Design Agency 
-                        </h2>
+                    </h2>
                 </div>
             </div>
 
