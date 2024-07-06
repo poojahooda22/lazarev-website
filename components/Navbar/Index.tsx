@@ -62,7 +62,7 @@ function Header() {
         py-[5vw] px-[5vw] sm:px-0 sm:py-[1.5vw]'
     >
         <div className='max-w-screen-xl mx-auto 
-        flex items-center
+            flex items-center
             justify-center gap-[6vw]'
         >
             {/* //logo */}
