@@ -75,7 +75,7 @@ function Hero() {
                     >
                         <span className='block sm:mr-8'>
                             AI & ML 
-                            </span>Pr
+                        </span>Pr
                         <span 
                             onMouseEnter={handleScale}
                             onMouseLeave={handleScaleLeave}
