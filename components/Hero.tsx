@@ -102,7 +102,6 @@ function Hero() {
                 </div>
             </div>
 
-
             {/* // p tag */}
             <div 
                 className='flex flex-col items-start 
