@@ -34,7 +34,8 @@ const Projects = () => {
           <div className='w-1/2 pt-[1vw]'>
             <p className='w-1/2 text-[.8vw] leading-[1vw]'>
               Exclusive insights into
-              <br/> UI/UX and product design</p>
+              <br/> 
+              UI/UX and product design</p>
           </div>
           <div className='w-2/4'>
             <p className='text-sm leading-[1.3vw]'>
