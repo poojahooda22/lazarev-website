@@ -29,7 +29,7 @@ const Projects = () => {
   return (
     <div className='w-full pb-[4vw]'>
       <div className='w-full  max-w-screen-xl mx-auto border-t-[.1px] border-grey pt-[1.5vw] flex'>
-        <div className='w-1/2 h-[34vw] flex flex-col items-start justify-between'>
+        <div className='w-1/2 h-[34vw] sm:flex flex-col items-start justify-between'>
           <div className='w-1/2 pt-[1vw]'>
             <p className='w-1/2 text-[.8vw] leading-[1vw]'>
               Exclusive insights into
