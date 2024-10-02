@@ -9,7 +9,7 @@ npm run dev
 # 
 yarn dev
 #
-pnp
+pn
 bun
 ``
 
