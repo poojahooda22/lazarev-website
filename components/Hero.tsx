@@ -56,17 +56,19 @@ function Hero() {
   return (
     <div className='w-full h-[100vh]'>
         <div   
-            className='w-full h-full max-w-screen-xl mx-auto 
+            className='w-full h-full max-w-screen-xl 
+            mx-auto 
             flex flex-col 
             items-start px-[5vw] sm:px-0
             sm:items-center sm:justify-center 
-            pt-[22vw] sm:pt-[2vw]'
+            pt-[28vw] sm:pt-[2vw]'
         >
             {/* // Tag line with H1 */}
             <div 
-                className='uppercase tracking-tighter font-bold
+                className='uppercase tracking-tighter 
+                font-bold
                 text-2xl leading-[14vw]
-                sm:text-xl  sm:leading-[8vw] 
+                sm:text-xl sm:leading-[8vw] 
                 sm:text-center'
             >
                 <div  className='firsth1 overflow-hidden'>
