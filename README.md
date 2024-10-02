@@ -10,7 +10,6 @@ npm run dev
 yarn dev
 # o
 pnpm d
-
 bun dev
 ```
 
