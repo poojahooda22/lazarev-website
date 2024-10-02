@@ -54,7 +54,7 @@ function Hero() {
 
 
   return (
-    <div className='w-full h-[100vh]'>
+    <div className='w-full h-[80vh] sm:h-[100vh]'>
         <div   
             className='w-full h-full max-w-screen-xl 
             mx-auto 
