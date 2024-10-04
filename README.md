@@ -6,7 +6,7 @@ First, run the development server:
 
 ```bas
 npm run de
-yarn 
+yarn
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the resul
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the fil
