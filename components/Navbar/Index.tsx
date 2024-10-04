@@ -84,7 +84,7 @@ function Header() {
                 >            
                     <div 
                         className={`listNav ${style.listNav} hidden 
-                            sm:flex 
+                        sm:flex 
                         items-start whitespace-nowrap
                         gap-[2vw] text-xs relative z-[2]
                         font-semibold tracking-tighter leading-none`}
