@@ -5,13 +5,18 @@ import React from 'react'
 
 const Project = ({item}: any) => {
 
+    const handleClick = () => {
+        console.log('clicked')
+    }
+
   return (
     <div 
-        className='flex items-start 
+        className='right-elem flex items-start 
         justify-between 
         border-t-[.1px] relative
         -mt-[1.5vw] border-grey 
         pt-[1.5vw] pb-[6vw]'
+        onMouseMove={handleClick}
     >
         <div className='w-2/3'>
             <h1 className='text-md leading-[2vw] capitalize'>
