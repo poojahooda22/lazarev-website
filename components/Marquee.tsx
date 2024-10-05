@@ -12,7 +12,8 @@ function Marquee({imagesurl, direction}: {imagesurl: any, direction: any}) {
               transition={{ease: 'linear', duration: 30, repeat: Infinity}}
               className='flex flex-shrink-0 gap-[10vw] sm:gap-[3vw]'>
               {imagesurl.map((url: string, index: number) => <Image key={index} 
-              width={1000} height={100}  src={url} className='w-[18vw] sm:w-[3vw] flex-shrink-0' alt=""/>)}  
+              width={1000} height={100}  src={url} className='w-[18vw] sm:w-[3vw] 
+              flex-shrink-0' alt=""/>)}  
             </motion.div>
 
             <motion.div 
