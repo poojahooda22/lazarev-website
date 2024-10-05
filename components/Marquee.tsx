@@ -5,7 +5,8 @@ import { motion } from 'framer-motion'
 
 function Marquee({imagesurl, direction}: {imagesurl: any, direction: any}) {
     return (
-        <div className=' flex items-center justify-center gap-[10vw] 
+        <div 
+        className=' flex items-center justify-center gap-[10vw] 
         sm:gap-[3vw] py-[1.5vw] sm:py-[1.5vw] overflow-hidden'>
             <motion.div 
               initial={{ x: direction === 'left' ? '0' : '-100%'}}
