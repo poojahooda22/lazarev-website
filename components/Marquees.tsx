@@ -28,7 +28,7 @@ function Marquees() {
       sm:pb-[4vw] px-[5vw] sm:px-0
       flex items-center justify-center'
     >
-      <div className='w-full sm:w-2/3 relative'>
+      <div className='w-full sm:w-2/3 relative '>
         <div 
           className='w-[4vw] h-1/2 sm:w-[3vw] sm:h-1/2 
           absolute top-0 left-0 z-[2] 
