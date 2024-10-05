@@ -3,34 +3,14 @@
 import Image from 'next/image'
 import React, { useEffect, useRef } from 'react'
 import { gsap, Power4 } from 'gsap';
+import { useGSAP } from '@gsap/react';
 
 
 const Project = ({item}: any) => {
 
-    useEffect(() => {
-        let rotate: number = 0;
-        let diffrot: number = 0;
-        const list: NodeListOf<Element> = document.querySelectorAll('.right-elem');
-    
-        list.forEach((el: Element) => {
-            el.addEventListener('mousemove', function(this: Element, event: Event) {
-                const dets = event as MouseEvent;
-                const diff: number = dets.clientY - (el.getBoundingClientRect().top);
-                diffrot = dets.clientX - rotate;
-                rotate = dets.clientX;
-                gsap.to((this as HTMLElement).querySelector(".picture"), {
-                    opacity: 1,
-                    ease: Power4.easeOut,
-                    top: diff,
-                    left: dets.clientX,
-                    rotate: gsap.utils.clamp(-20, 20, diffrot * 0.2),
-                });
-            });
-            el.addEventListener('mouseleave', function(this: Element) {
-                gsap.to((this as HTMLElement).querySelector(".picture"), { opacity: 0, ease: 'power4.out', duration: 0.5 });
-            });
-        });
-    }, []);
+    useGSAP(() => {
+        
+    })
    
 
   return (
