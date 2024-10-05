@@ -31,7 +31,7 @@ function Marquees() {
       <div className='w-full sm:w-2/3 relative '>
         <div 
           className='w-[4vw] h-1/2 sm:w-[3vw] sm:h-1/2 
-          absolute top-0 left-0 z-[2] 
+          absolute top-1/3 left-0 z-[2] 
           bg-gradient-to-r from-black to-transparent'
         ></div>
         {images.map((item, index) => 
@@ -39,7 +39,7 @@ function Marquees() {
         )}
         <div 
           className='w-[4vw] h-1/2 sm:w-[3vw] 
-          m:h-2/3 absolute top-0 right-0 
+          m:h-2/3 absolute top-1/3 right-0 
           z-[2] bg-gradient-to-r from-transparent to-black'></div>
       </div>
     </div>
