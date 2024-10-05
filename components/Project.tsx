@@ -1,24 +1,42 @@
 'use client'
 
 import Image from 'next/image'
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
+import { gsap, Power4 } from 'gsap';
+
 
 const Project = ({item}: any) => {
 
-   useEffect(() => {
-        var rightElems = document.querySelectorAll('.right-elem')
-
-        rightElems.forEach((elem) => {
-            elem.addEventListener('mouseenter', function(){
-                (elem.childNodes[3] as HTMLElement).style.opacity = '1'
-            })
-        })
-    })
+    useEffect(() => {
+        let rotate: number = 0;
+        let diffrot: number = 0;
+        const list: NodeListOf<Element> = document.querySelectorAll('.right-elem');
+    
+        list.forEach((el: Element) => {
+            el.addEventListener('mousemove', function(this: Element, event: Event) {
+                const dets = event as MouseEvent;
+                const diff: number = dets.clientY - (el.getBoundingClientRect().top);
+                diffrot = dets.clientX - rotate;
+                rotate = dets.clientX;
+                gsap.to((this as HTMLElement).querySelector(".picture"), {
+                    opacity: 1,
+                    ease: Power4.easeOut,
+                    top: diff,
+                    left: dets.clientX,
+                    rotate: gsap.utils.clamp(-20, 20, diffrot * 0.2),
+                });
+            });
+            el.addEventListener('mouseleave', function(this: Element) {
+                gsap.to((this as HTMLElement).querySelector(".picture"), { opacity: 0, ease: 'power4.out', duration: 0.5 });
+            });
+        });
+    }, []);
+   
 
   return (
-    <div 
+    <div
         className='right-elem flex items-start 
-        justify-between 
+        justify-between overflow-hidden
         border-t-[.1px] relative
         -mt-[1.5vw] border-grey 
         pt-[1.5vw] pb-[6vw]'
@@ -40,7 +58,7 @@ const Project = ({item}: any) => {
             </div>
         </div>
         <div 
-            className='absolute w-[8vw] 
+            className='picture absolute w-[8vw] 
             h-[8vw]'
         >
             <Image 
@@ -48,7 +66,7 @@ const Project = ({item}: any) => {
                 alt='cover' 
                 width={1000} 
                 height={100} 
-                className='w-full h-full 
+                className=' w-full h-full
                 object-cover rounded-full'
             />
         </div>
