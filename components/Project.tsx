@@ -1,13 +1,19 @@
 'use client'
 
 import Image from 'next/image'
-import React from 'react'
+import React, { useEffect } from 'react'
 
 const Project = ({item}: any) => {
 
-    const handleClick = () => {
-        console.log('clicked')
-    }
+   useEffect(() => {
+        var rightElems = document.querySelectorAll('.right-elem')
+
+        rightElems.forEach((elem) => {
+            elem.addEventListener('mouseenter', function(){
+                (elem.childNodes[3] as HTMLElement).style.opacity = '1'
+            })
+        })
+    })
 
   return (
     <div 
@@ -16,7 +22,7 @@ const Project = ({item}: any) => {
         border-t-[.1px] relative
         -mt-[1.5vw] border-grey 
         pt-[1.5vw] pb-[6vw]'
-        onMouseMove={handleClick}
+        
     >
         <div className='w-2/3'>
             <h1 className='text-md leading-[2vw] capitalize'>
