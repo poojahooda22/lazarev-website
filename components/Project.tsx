@@ -15,7 +15,7 @@ const Project = ({item}: any) => {
         const list = document.querySelectorAll<HTMLDivElement>('.right-elem');
       
         list.forEach((el) => {
-          el.addEventListener('mouseenter', (dets: MouseEvent) => {
+          el.addEventListener('mousemove', (dets: MouseEvent) => {
             const elemRect = el.getBoundingClientRect();
             const diff = dets.clientY - elemRect.top;
             diffrot = dets.clientX - rotate;
@@ -68,7 +68,7 @@ const Project = ({item}: any) => {
             </div>
         </div>
         <div 
-            className='absolute w-[8vw] 
+            className=' absolute w-[8vw] 
             h-[8vw]'
         >
             <Image 
