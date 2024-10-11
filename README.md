@@ -5,7 +5,6 @@ First, run the development server
 Open [http://localhost:3000](http://localhost:3000) 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom
-
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js feature
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions
