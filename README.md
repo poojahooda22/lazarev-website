@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Getting Started
 First, run the development server
 Open [http://localhost:3000](http://localhost:3000) 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates a
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize a
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Ne
 - [Learn Next.js](https://nextjs.org/learn) - an interactive
