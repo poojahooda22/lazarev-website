@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server
 Open [http://localhost:3000](http://localhost:3000) 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) t
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) 
 - [Next.js Documentation](https://nextjs.org/docs) - 
 - [Learn Next.js](https://nextjs.org/learn) 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) 
