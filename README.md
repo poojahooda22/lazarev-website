@@ -4,7 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development serve
 Open [http://localhost:3000](http://localhost:3000)
 You can start editing the page by modifying `app/p
-This project uses [`next/fon
+This project uses [`next/fo
 - [Next.js Documentation](https://nextjs.org/doc
 - [Learn Next.js](https://nextjs.org/learn)
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/)
