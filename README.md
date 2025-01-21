@@ -3,7 +3,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 ## Getting Started
 First, run the development serve
 Open [http://localhost:3000](http://localhost:3000)
-You can start editing the page by
+You can start editing the page b
 This project uses 
 - [Next.js Docume
 - [Learn Next.js](https:
