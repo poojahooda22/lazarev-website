@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 First, run the development se
-Open [http://localhost:3000](http://localhost:3000)
+Open [http://localhost:3000](http://localhost:3000
 You ca
 - [Lear
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/)
