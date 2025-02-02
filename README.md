@@ -2,5 +2,5 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting St
 You 
-The easiest wa to deploy your Net. p [erel Plafor](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-nxt-app&utm_campaign=create-next-app-readme) from the creators of Next.j
+The easiest wa to deploy your Net. p [rel Plafor](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-nxt-app&utm_campaign=create-next-app-readme) from the creators of Next.j
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) 
