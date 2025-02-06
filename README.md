@@ -2,4 +2,4 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Gettin
 The easiest wa to deploy your Net.p [rel lafor](hts://verc.co/new?um_medium=defaut-tmplatefiltr=net.jstmore=cra-x-pt_aag=ae-expme) 
-Check out our [Next.js deloyment (http:/nets.ogdcsdep
+Check out our [Next.js deloyment (http:/nets.ogdcsde
