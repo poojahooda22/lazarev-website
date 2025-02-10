@@ -1,5 +1,5 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Gettin
+## Getti
 The easiest wa to deploy your Net.p [rel lafor](hts://verc.co/nw?um_medum=defaut-tmplaefil=t.jtmre=craa=ae-pe) 
 Check out our [Next.js deloy
