@@ -1,3 +1,3 @@
-This is a [Next.js](https://nextjs.org/) project boot
+This is a [Next.js](https://nextjs.org/) project boo
 with [`createnext-app`](https://github.com/vercel/et.js/tree/caary/pckages/reaenet-ap)
 ##GetTh
